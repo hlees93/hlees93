@@ -1,0 +1,353 @@
+body {
+	background-color:#fff;
+	font-size: 18px;
+}
+
+#bubblebkg{
+	height:125%;
+	width:auto;
+	background-image:url("../images/bubblebackground.png");
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	z-index: 1;
+}
+
+#pbspix{
+	margin-left:5%;
+}
+#pausepix{
+	position:relative;
+	top:184px;
+	max-width:23%;
+	height: auto;
+	padding-bottom:20px;
+}
+
+#smilepix{
+	position:relative;
+	top:150px;
+	max-width:23%;
+	height: auto;
+	padding-bottom:20px;
+}
+
+#breathepix{
+	position:relative;
+	top: 160px;
+	max-width:23%;
+	height: auto;
+	padding-bottom:20px;
+}
+
+
+#bookpix {
+	float:right;
+	top: 270px;
+	width:25%;
+	margin-right:70px;
+	height:auto;
+	padding-bottom:20px;
+}
+
+#preordernow{
+	text-align:left;
+	line-height:40px;
+	margin-left: 100px;
+	font-family: futura, sans-serif;
+	font-weight:bolder;
+	color:#737474;
+	font-size:2em;
+	padding: 10px;
+	margin-top:-15%;
+	margin-bottom:230px;
+}
+
+a{
+	font-family:futura, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background-color: #ef4b98;
+	float:right;
+	padding: 10px;
+	border:10px;
+	border-radius:10px;
+	margin:30px;
+}
+a:hover{
+	background-color:#86d3ed;
+}
+
+
+#pinkbkg {
+	width: 100%;
+	position:relative;
+	background-color:#ee589f;
+	z-index: 2;
+}
+.pinkbkg-contents {
+	margin: auto;
+    width: 80%;
+  	overflow: auto;
+}
+
+h2{
+	text-align: center;
+	font-family:futura, sans-serif;
+	font-weight:900px;
+	font-size:2.4em;
+	color:#fff;
+	padding:10px;
+}
+ul{
+	list-style-image:url("../images/bulletstyle.png");
+}
+
+li {
+	font-family:cochin, serif;
+	font-size:1.3em;
+	line-height: 29px;
+	font-weight:medium;
+	color:#fff;
+	margin-top:41px;
+}
+
+#pause{
+	position:relative;
+}
+#breathe{
+	position:relative;
+}
+#smile{
+	position:relative;
+	margin-bottom:100px;
+}
+.column{
+	float:left;
+	width: 21%;
+	height:auto;
+	padding:40px 20px;
+	margin-left:65px;
+	margin-top:50px;
+}
+
+#lightbluebkg {
+	width: 100%;
+	position:relative;
+	background-color:#d8f1f9;
+	z-index: 3;
+}
+
+.lightbluebkg-contents{
+	font-family: futura, sans-serif;
+	color:#737474;
+	font-size:1em;
+	margin: auto;
+    width: 80%;
+  	overflow: auto;
+}
+
+#quotebox{
+	background-color: #fff;
+	margin: auto;
+	margin-top: 100px;
+	text-align:center;
+	padding:20px;
+	width: 60%;
+	border: 5px solid #737474;
+}
+
+#claimgift-header{
+	color:#737474;
+	font-weight:bolder;
+	font-size:1.7em;
+	text-align:left;
+	padding-bottom:20px;
+}
+
+
+div p{ 
+	line-height:1.5em;
+}
+
+form{
+	line-height: 1.6em;
+	}
+}
+input{
+	padding-bottom:10px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background-color: #737474;
+    color:#fff;
+    font-family: futura, sans-serif;
+    font-size:.85em;
+    border-radius:.6em;
+    margin-top:10px;
+ }
+
+.box {
+	background-color: #ebf8fc;
+	float:left;
+	width: 33%;
+	height:190px;
+	padding:40px 20px;
+	margin-left:65px;
+	margin-top:50px;
+	margin-bottom: 60px;
+	border: 2px solid #fff;
+}
+
+#darkbluebkg {
+	width:100%;
+	position: relative;
+	background-color:#47c3ed;
+	z-index: 4;
+}
+
+.darkbluebkg-contents{
+	display:block;
+	overflow: auto;
+	margin: auto;
+    width: 90%;
+}
+
+#gary{
+	width: 20%;
+	margin:100px 50px;
+}
+
+#aboutgary{
+	width: 55%;
+	margin:100px 0;
+	color:#fff;
+	font-family:cochin, serif;
+	font-size:1em;
+}
+
+.item{
+	float:left;
+}
+
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:" ";
+	display: block;
+	clear: both;
+}
+
+footer{
+	display:block;
+	margin:auto;
+	width: 40%;
+}
+
+#logo{
+	width:70%;
+	margin:auto;
+	padding:50px;
+	display: block;
+}
+
+
+@media (max-width: 1065px) {
+
+	.column{
+		float:none;
+		width: 75%;
+		text-align:center;
+	}
+	ul{
+		list-style-position:inside;
+	}
+	.box{
+		float:none;
+		width: 50%;
+		margin:50px auto;
+	}
+}
+
+@media (max-width: 800px) {
+  
+  #pausepix{
+  	display:none;
+  }  
+  #breathepix{
+  	display:none;
+  }  
+  #smilepix{
+  	display:none;
+  }
+
+  #bubblebkg {      
+     background-image: url("../images/rotatebubbles.png");
+     background-size: 100%;
+     background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+  }
+header{
+	width:60%;
+	margin:auto;
+}
+
+#bookpix {
+	float:none;
+	margin:auto;
+	width:70%;
+	margin-left:50px;
+}
+
+#preordernow{
+	width:75%;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	font-size:1.5em;
+}
+
+  a{
+  	position: relative;
+  	display:block;
+  	margin-top: 50px;
+  	width: 75%;
+  	text-align: center;
+  	font-size: 1.6em;
+  }
+  	.item{
+		float:none;
+		width: 75%;
+		text-align:center;
+		margin:auto;
+	}
+	#gary{
+		display:block;
+		width:45%;
+		margin: 50px auto;
+	}
+	#aboutgary{
+		width:80%;
+		margin: 50px auto;
+		font-size:1.15em;
+	}
+	.darkbluebkg-contents{
+		width: 70%;
+	}
+
+}
+
