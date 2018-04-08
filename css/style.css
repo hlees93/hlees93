@@ -274,6 +274,7 @@ footer{
 		width: 50%;
 		margin:50px auto;
 	}
+
 }
 
 @media (max-width: 800px) {
@@ -287,6 +288,11 @@ footer{
   #smilepix{
   	display:none;
   }
+
+  li{
+		font-size:2em;
+		line-height:1.5em;
+	}
 
   #bubblebkg {      
      background-image: url("../images/rotatebubbles.png");
@@ -327,7 +333,7 @@ header{
   	margin-top: 50px;
   	width: 75%;
   	text-align: center;
-  	font-size: 1.6em;
+  	font-size: 1.7em;
   }
   	.item{
 		float:none;
