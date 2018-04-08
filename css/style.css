@@ -69,11 +69,12 @@ body {
 
 a{
 	font-family:futura, sans-serif;
+	font-size:1.7em;
 	text-decoration: none;
 	color: #fff;
 	background-color: #ef4b98;
 	float:right;
-	padding: 10px;
+	padding:15px;
 	border:10px;
 	border-radius:10px;
 	margin:30px;
@@ -228,7 +229,7 @@ input[type=submit] {
 	margin:100px 0;
 	color:#fff;
 	font-family:cochin, serif;
-	font-size:1em;
+	font-size:1.5em;
 }
 
 .item{
@@ -263,7 +264,7 @@ footer{
 
 	.column{
 		float:none;
-		width: 75%;
+		width: 80%;
 		text-align:center;
 	}
 	ul{
@@ -274,7 +275,6 @@ footer{
 		width: 50%;
 		margin:50px auto;
 	}
-
 }
 
 @media (max-width: 800px) {
@@ -288,11 +288,6 @@ footer{
   #smilepix{
   	display:none;
   }
-
-  li{
-		font-size:2em;
-		line-height:1.5em;
-	}
 
   #bubblebkg {      
      background-image: url("../images/rotatebubbles.png");
@@ -343,13 +338,12 @@ header{
 	}
 	#gary{
 		display:block;
-		width:45%;
+		width:55%;
 		margin: 50px auto;
 	}
 	#aboutgary{
-		width:80%;
+		width:95%;
 		margin: 50px auto;
-		font-size:1.15em;
 	}
 	.darkbluebkg-contents{
 		width: 70%;
